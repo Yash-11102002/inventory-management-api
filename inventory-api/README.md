@@ -16,12 +16,17 @@ A backend API to manage products in a warehouse. Supports CRUD operations and in
 - `DELETE /products/:id` - Delete product
 - `POST /products/:id/increase` - Increase stock
 - `POST /products/:id/decrease` - Decrease stock
-- `GET /products/low-stock?threshold=5` - List low stock products
+- `GET
+
+## Tests
+Run: `npm test`
+
+first start the npm server 
+then only the below swagger api docs work
 
 ## API Documentation
 You can test and explore the API endpoints using Swagger UI:
 
 [Open API Documentation](http://localhost:3000/api-docs)
 
-## Tests
-Run: `npm test`
+
