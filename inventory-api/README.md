@@ -18,5 +18,10 @@ A backend API to manage products in a warehouse. Supports CRUD operations and in
 - `POST /products/:id/decrease` - Decrease stock
 - `GET /products/low-stock?threshold=5` - List low stock products
 
+## API Documentation
+You can test and explore the API endpoints using Swagger UI:
+
+[Open API Documentation](http://localhost:3000/api-docs)
+
 ## Tests
 Run: `npm test`
